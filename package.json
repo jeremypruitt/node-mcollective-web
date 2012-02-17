@@ -1,0 +1,18 @@
+{
+  "name": "mcollective-web",
+  "description": "MCollective Web",
+  "version": "0.0.1",
+  "engines": { "node": ">= 0.4" },
+  "dependencies": {
+    "async": ">= 0.1.15",
+    "express": ">= 2.5.7",
+    "mcollective": ">= 0.0.1",
+    "node-uuid": ">= 1.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/silas/node-mcollective-web.git"
+  },
+  "bugs" : { "url" : "http://github.com/silas/node-mcollective-web/issues" },
+  "main": "./lib/mcollective-web"
+}

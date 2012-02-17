@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+var mcollective = require('../lib/mcollective-web')
+  , path = require('path')
+
+var options = function() {
+  if (process.argv.length > 2) {
+    var p = process.argv[2]
+    if (p && p[0] !== '/') p = path.join(process.cwd(), p)
+    return require(p)
+  }
+  return {}
+}()
+
+var web = mcollective.createServer(options)
+
+web.listen((options.http && options.http.port) || 8000)
