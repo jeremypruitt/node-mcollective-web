@@ -2,6 +2,7 @@
   "name": "mcollective-web",
   "description": "MCollective Web",
   "version": "0.0.1",
+  "author": "Silas Sewell",
   "engines": { "node": ">= 0.4" },
   "dependencies": {
     "async": ">= 0.1.15",
