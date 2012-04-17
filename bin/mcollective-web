@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var mcollective = require('../lib/mcollective-web')
+var mcollective = require('../lib')
   , path = require('path')
 
 var options = function() {

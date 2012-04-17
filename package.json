@@ -2,7 +2,7 @@
   "name": "mcollective-web",
   "description": "MCollective Web",
   "version": "0.0.1",
-  "author": "Silas Sewell",
+  "author": "Silas Sewell <silas@sewell.org>",
   "engines": { "node": ">= 0.4" },
   "dependencies": {
     "async": ">= 0.1.15",
@@ -15,5 +15,5 @@
     "url": "http://github.com/silas/node-mcollective-web.git"
   },
   "bugs" : { "url" : "http://github.com/silas/node-mcollective-web/issues" },
-  "main": "./lib/mcollective-web"
+  "main": "./lib"
 }
